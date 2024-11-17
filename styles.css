@@ -1,0 +1,41 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    color: #ffffff;
+}
+
+.score-container {
+    text-align: center;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 2em;
+    color: #00ffcc;
+}
+
+#match-info {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.loading {
+    color: #ffcc00;
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.5;
+    }
+}
